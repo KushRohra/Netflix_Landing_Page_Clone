@@ -169,6 +169,17 @@ img
 	color: #fff;
 }
 
+/*Hide content initially*/
+#tab-1-content, #tab-2-content, #tab-3-content
+{
+	display: none;
+} 
+
+.show
+{
+	display: block !important;
+}
+
 /*Tab-1*/
 #tab-1-content .tab-1-content-inner
 {
@@ -261,6 +272,12 @@ img
 .footer li
 {
 	line-height: 1.9;
+}
+
+/*Icon*/
+.btn-icon
+{
+	margin-left: 1rem;
 }
 
 /*Container*/
